@@ -15,7 +15,7 @@ alert(
   "The firebase database trial has now expired so, even if you try to add anything to the cart, it won't be shown on the screen since the database no longer gives permission to the web app. Any suggestions/improvements are most welcomed."
 );
 if(window.confirm("Wanna contribute in the project?")){
-  window.open("https://github.com/epsit03/add-to-cart");
+  window.open("https://github.com/epsit03/add-to-cart");}
   
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
